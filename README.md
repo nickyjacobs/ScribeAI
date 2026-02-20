@@ -179,9 +179,3 @@ Start in watch-modus voor automatisch herladen bij wijzigingen:
 ```bash
 npm run dev
 ```
-
----
-
-## Licentie
-
-ISC
