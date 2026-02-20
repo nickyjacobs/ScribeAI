@@ -30,7 +30,7 @@ ScribeAI is een interactieve CLI-tool die Claude inzet om documenten te generere
 ## Installatie
 
 ```bash
-git clone <repo-url> && cd scribeai
+git clone https://github.com/nickyjacobs/ScribeAI.git && cd scribeai
 npm install
 ```
 
