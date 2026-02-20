@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# ScribeAI — start script
+# Gebruik: ./start [mode]
+#   mode: general | report | cv | notes
+
+cd "$(dirname "$0")"
+
+# Zorg dat de nvm node beschikbaar is voor npm (bij eerste installatie)
+export PATH="$HOME/.nvm/versions/node/v22.22.0/bin:$PATH"
+
+# Unset CLAUDECODE zodat de Claude Agent SDK zelfstandig werkt
+unset CLAUDECODE
+
+exec node_modules/.bin/tsx src/cli/index.ts "$@"
