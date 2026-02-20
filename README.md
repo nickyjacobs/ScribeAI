@@ -1,5 +1,7 @@
 # ScribeAI
 
+<img width="690" height="805" alt="image" src="https://github.com/user-attachments/assets/1cd9db03-3247-4727-82a8-2fd40c4ccefa" />
+
 **AI-gestuurde documentatie-agent voor rapporten, CV's en Obsidian-notities.**
 
 ScribeAI is een interactieve CLI-tool die Claude inzet om documenten te genereren, optimaliseren en beheren. Kies een modus en begin met typen — ScribeAI doet de rest.
